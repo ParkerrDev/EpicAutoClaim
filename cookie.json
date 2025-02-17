@@ -1,0 +1,133 @@
+[
+  {
+    "domain": ".epicgames.com",
+    "expirationDate": 1739747639.447282,
+    "httpOnly": true,
+    "name": "EPIC_BEARER_TOKEN",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "c7f5197a8c904384a2f8a1121f916880",
+    "url": "https://www.epicgames.com/"
+  },
+  {
+    "domain": ".epicgames.com",
+    "expirationDate": 1747485444.310731,
+    "httpOnly": true,
+    "name": "EPIC_DEVICE",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "9bf0503a1ed14dabb34a117dd19bc00e",
+    "url": "https://www.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "expirationDate": 1739747637.15875,
+    "httpOnly": true,
+    "name": "EPIC_EG1",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "storeId": "0",
+    "value": "eg1~eyJraWQiOiJnX19WS2pTU21xSjB4WmoxUllrTEdLUTdkbkhpTTlNTGhGVndLUHlTREI0IiwiYWxnIjoiUFMyNTYifQ.eyJhcHAiOiJkaWVzZWx3ZWIiLCJzdWIiOiI0OTRmNjA0ZWU4NmI0ODk4YWQzOTkwYzM1NjBlYzNmNiIsImR2aWQiOiI5YmYwNTAzYTFlZDE0ZGFiYjM0YTExN2RkMTliYzAwZSIsIm12ZXIiOmZhbHNlLCJjbGlkIjoiODc1YTNiNTdkM2E2NDBhNmI3ZjliNGU4ODM0NjNhYjQiLCJkbiI6IklkYWhvVWRhUGltcCIsImFtIjoidG9rZW5fdG9fdG9rZW4iLCJwIjoiZU5xbFZtMXU0akFRdmMrS1NxVlFWQ3h4Z0pYNmE3VVhtTmdUR09IWWtlM1FzcWZmR1pPRVFLRkoyMzl4Yk0vSGV6TnZYQWR2R3AxVTNSU1d0S3BQeTdoNW1nVThFTDUxR3dGckg1SktFTGFZTnZPWjlsWFZPTktReUx1b3lDVU1EaXlmQTZNaXBrUnVLMWF1enVGN2V3NjA5bzFMU3F3OXpicFY2NnhiL3VJdGd3ZTB2c1pRQnpxQVB2YkcxWEs5TEZlUFM4U1hWYkY4V2IrQVdhelhqM3J4dkhwRXZTaFhtOVdzaG1PRlo3dmRjdXltZ2lidE5OU2NwNlVpUURoMkZpaGhKV2xkL1I0MXFMMjFxQVdEYkdJem44ODRFRW9XSmFBVFRqVkVCb2hSbTg5aVUwUWRxTTRYV2gvRGZ3OEdTNzVVWDVJWHdabkN2Nk1FaUkyRkZFRHZHU29WZHhEUU1EZXhaaEp3UnpINWNCU3ZrTUQ2L29BdlN3eHkrNWIvMFJ5SGx3YTIyK3NKY2oxVTN2VGhucXZFY2tTVC9ieFIzTW1GemZ6NVpxQ0tUTWIyK050Y3gzUlZEK091Z0dtN1g2QmNZWU44K0ZPZzg1cHlmU2M2Y0F6dDVoMUcrQTlHUmliZ3VRNE04ZzVXcDVSNjVneWYyRHhmRXlZTkVqRWNTQ001TnVRMGZ0SnptcHN6WVljN2w5bGxpMXZhSTJkVVdLLzNyMExJYUlQTmwyemlEWUtaRE9qcCtFT0wzM2M2cWJad1RGVGgzZkpucWFnb3hyWUlMK0djM3E2TmRJb3FtWmpONHBLNlhoQlB6VFFCSlE2VUNVSzNKWWNYcmFieWhuUUZoRDBtVGsxanJ6VENwN1ZSdmRJQmY0Q1RZaU9mMU1SUXI2V1lXQmpRVU5UK2dHZG55ZGVrTTFuUU9MM2p3THRvT2ozcytxTWpkankrQ2hNWXJ1WmN3M1VUOUE0WXpGNkJlazhmdDN6WWdxTi9PUk1GcGlMWEQ0eFJyOE83TVF0Q1NBNkRqSzl0T0Zsc0JMa3B3OFVISTFQSmE0elJoK2t5Q1Jiam56eE9PWUF5RURvellaaXgySDFKSlpPSEtBTDEvVWtsTG91R3JDRlhlcFcvS2dhdlpNWEtwQTBHMkhRQ0JwZCtWamRDSG9mYWozYis1bXh2ZFNxWHMxRGFxK3c0MWxsYVNySTRlQmJKa2gxTTVZc1JZdmk2TnJ1YWhWdW9NQTZIdnI4MzlNZnBza0RWUTRFT1M4cnZzc3NCY2VlOXd0S1M4Sy9mbzh1ZmpSd3BHOHM1MnVGOEZQVzhMVis1aVBsbGxtZldsK3BTYzhmSjg2ZGltWUYyZHNtclI0VG40NnZoak5RM2Rkekk5Zi9ZQWNGSyIsImlhaSI6IjQ5NGY2MDRlZTg2YjQ4OThhZDM5OTBjMzU2MGVjM2Y2Iiwic2VjIjowLCJhY3IiOiJ1cm46ZXBpYzpsb2E6YWFsMSIsImNsc3ZjIjoiZGllc2Vsd2ViIiwidCI6InMiLCJhdXRoX3RpbWUiOjE3Mzk2OTAwMzksImljIjp0cnVlLCJleHAiOjE3Mzk3MTg4MzYsImlhdCI6MTczOTY5MDA0MCwianRpIjoiMzE2MjEyZTI0MTM2NDRmNWEyYmRkNzdhMGI3ZjlhMDgifQ.hhVh4RLYOgAwqVX9Rqlb56q9jxrK20zTe6zfu3FmL2GPnCYZZf8ow3xEi9crnCLtGJjpDHfm41iwF906PM-Mu35L9sCYc0GACahiin2THyh0xneg7Jwd1dI8-XjS-M5_s0rqjInKz-DQD_9_9v7In5jfhPeC8XzgycQXh5wXj1HgrzhmfozNRhJZDt52ImwkCAnTLNshG1M5VXqPUE356FW_UvLRBZbLCijO05T5bR4E7O9y-eLq8tSNNqtNC47kwmvjr-3KT3-TBCmnIE-7GVuxPDbmTMi5n7EdD9v7B6kQes-Xdf5FJm7NGx7RC75UPHSaoJ1Oy-2Lek0FJ6KiKLvP3QRl6i3qybYgoMw0dPgzr8BJFQ85SnHXiFz35uj7t2XHrVvQupso1VzUecAtOj49KRfBh--9ie0y3-eru7LztOx51k69EZvTsbAGo3ncLQQJC8zS7oBWuiU08UCRyZ3kwms8NFtTRo9RL4XL-SY9-8Fl8_32thHncy1CUHzm6L5lALRiUKjpflKr9bdjA_xPsGRf6iX56VsD14GdPr-_pBDAG9O9lFehSPMr6x-UVjNMidOjmGDk-93NaxF_lfTnsXlCTaC1XIco6puyLP4mxNdDFpOrkFxOweV5vZk588khHlwwYY4F6A6YrC_o5lC4GR9aV_CSlE2TDcgpLqM",
+    "url": "https://www.store.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "httpOnly": false,
+    "name": "EPIC_LOCALE_COOKIE",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "storeId": "0",
+    "value": "en-US",
+    "url": "https://www.store.epicgames.com/"
+  },
+  {
+    "domain": ".epicgames.com",
+    "expirationDate": 1739747639.447167,
+    "httpOnly": true,
+    "name": "EPIC_SSO",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "21f424c55c6b4dc4a828246d78769540",
+    "url": "https://www.epicgames.com/"
+  },
+  {
+    "domain": ".epicgames.com",
+    "expirationDate": 1742310839.447316,
+    "httpOnly": true,
+    "name": "EPIC_SSO_RM",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "21f424c55c6b4dc4a828246d78769540",
+    "url": "https://www.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "expirationDate": 1739834041.158907,
+    "httpOnly": true,
+    "name": "REFRESH_EPIC_EG1",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "storeId": "0",
+    "value": "eg1~eyJraWQiOiJnX19WS2pTU21xSjB4WmoxUllrTEdLUTdkbkhpTTlNTGhGVndLUHlTREI0IiwiYWxnIjoiUFMyNTYifQ.eyJzdWIiOiI0OTRmNjA0ZWU4NmI0ODk4YWQzOTkwYzM1NjBlYzNmNiIsImR2aWQiOiI5YmYwNTAzYTFlZDE0ZGFiYjM0YTExN2RkMTliYzAwZSIsInQiOiJyIiwiY2xpZCI6Ijg3NWEzYjU3ZDNhNjQwYTZiN2Y5YjRlODgzNDYzYWI0IiwiZXhwIjoxNzM5ODA1MjQwLCJhbSI6InRva2VuX3RvX3Rva2VuIiwianRpIjoiYTY5MDNiM2M3NWU4NGZmY2I3NzM4ZjBhNTk0OGMzZjgifQ.FhrQ5xPvwnG1UUMg_NauAn3iofBfQu0zDYx5FYRsPokyaqf9B20zQryy1lXgOCWeWtAjcCJAHre5qQ7LBpcmkX1np8Y9IwQ8TrwzItYtTdaJyqjgBPIEIlJakT99yiqoNzXBb-ShEqq42_tV388-f7EXzs8DwxNatjtn3jt2jlfl-Ojr5nRZGnylIVPXqrHc4a0I8fCUVzyBfRapCHGEXdLmPWpyuplE4hBkAb5sQ1QpRB__KmvJzH9kM3xwYMxH6bY4LjygbppNDjP7v1mTri5vvjDVYvRx1XlANgad_GzTVOv59IfACoizbC02yto7CPl7fQQlGDAN_MZ37wl99R7rLdNtIj-zgZnz3euEo2u05BZ3yTCnXAI-rMw-GhqKvrlRSS3lxk9IwDeKTiT3zMmg0vJKLvFiLW-u1s9T85nhq_U38xB8PpmT_ysf7dpgkRQOWO341ghNlbKaXv5gkyEME0O1iQfEA90wrGyqKM7ScRDXP13WAhpQL0IqnEMwfZO4AdxOUSqgIvJDeHlnkmqzpCRAscgXqFAmqW_6mY3pGtOXmEa0Fd5wkO317tRrj0dHmb-PCeDchBIMXvDc5IirFi8OZylyzMC6nG33MU1cgLJj5OkJSwsN99yA_3sjRomG3DqSgD_K_VPr4P_RFNbLQFMGcSNBpkiO9i10uhw",
+    "url": "https://www.store.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "expirationDate": 1739720584.974874,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "CF72btnMAyCp2uvEulPzOmOZxs5iNw4Q7YWRcvpMngY-1739689985-1.0.1.1-7CbURHC_meoXNHMAXttBEih3a.b7pUPirQ07_8BYpTCieYKaX.lS5o9z4XtZ1_UvyJNwHdkNHUYxnuPw3nVCfQ",
+    "url": "https://www.store.epicgames.com/"
+  },
+  {
+    "domain": ".epicgames.com",
+    "expirationDate": 1755270806.860177,
+    "httpOnly": false,
+    "name": "_tald",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "storeId": "0",
+    "value": "18b2ea01-dca1-4350-8fed-27465715699e",
+    "url": "https://www.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "expirationDate": 1739834041.158955,
+    "httpOnly": false,
+    "name": "refreshTokenExpires",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "storeId": "0",
+    "value": "2025-02-17T15%3A14%3A00.527Z",
+    "url": "https://www.store.epicgames.com/"
+  },
+  {
+    "domain": ".store.epicgames.com",
+    "expirationDate": 1739747637.158985,
+    "httpOnly": false,
+    "name": "storeTokenExpires",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "storeId": "0",
+    "value": "2025-02-16T15%3A13%3A56.526Z",
+    "url": "https://www.store.epicgames.com/"
+  }
+]

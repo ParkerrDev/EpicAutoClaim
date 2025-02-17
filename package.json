@@ -1,15 +1,27 @@
 {
-  "name": "epicautoclaim",
+  "name": "my-playwright-project",
   "version": "1.0.0",
-  "description": "A script to auto claim free Epic Games Store titles",
-  "main": "index.js",
+  "description": "A Playwright project for automating claims on Epic Games and Fab.",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node index.js"
+    "test": "playwright test",
+    "build": "tsc"
   },
   "dependencies": {
-    "puppeteer": "^22.0.0",
-    "puppeteer-extra": "^3.3.4",
-    "puppeteer-extra-plugin-stealth": "^2.11.1"
-  }
+    "playwright": "^1.20.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.5.0"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "epic games",
+    "fab"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
