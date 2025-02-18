@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Playwright project for automating claims on Epic Games and Fab.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "playwright test",
     "build": "tsc"

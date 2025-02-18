@@ -12,10 +12,10 @@ export async function automateEpicGamesOrder(page: Page) {
     try {
         await page.goto('https://store.epicgames.com/en-US/', {
             waitUntil: 'domcontentloaded',
-            timeout: 15000 // reduced timeout
+            timeout: 8000 // reduced timeout
         });
         console.log("Navigation complete.");
-        await randomDelay(500, 1000); // reduced delay
+        // await randomDelay(200, 400); // reduced delay
 
         // Debug: Print all data-component attributes on the page
         const components = await page.evaluate(() => {
@@ -69,7 +69,7 @@ export async function automateEpicGamesOrder(page: Page) {
             return;
         }
 
-        await randomDelay(300, 700); // reduced delay after container check
+        // await randomDelay(150, 300); // reduced delay after container check
 
         // Get all free game offers and convert relative URLs to absolute URLs
         console.log("Extracting free game links...");
@@ -104,8 +104,8 @@ export async function automateEpicGamesOrder(page: Page) {
             console.log(`Processing game at ${link}`);
             try {
                 // Use faster navigation options: lower timeout and shorter waitUntil condition
-                await page.goto(link, { timeout: 15000, waitUntil: 'domcontentloaded' });
-                await randomDelay(300, 700); // reduced delay
+                await page.goto(link, { timeout: 8000, waitUntil: 'domcontentloaded' });
+                // await randomDelay(150, 300); // reduced delay
                 
                 // Check and click the continue button if an age warning appears
                 try {
@@ -126,11 +126,11 @@ export async function automateEpicGamesOrder(page: Page) {
 
                             if (continueButton) {
                                 console.log(`Found continue button with selector: ${selector}`);
-                                await randomDelay(300, 500);
+                                // await randomDelay(300, 500);
                                 await continueButton.click();
                                 console.log("Clicked continue button");
-                                await page.waitForLoadState('domcontentloaded');
-                                await randomDelay(500, 1000);
+                                await page.waitForLoadState('networkidle');
+                                // await randomDelay(500, 1000);
                                 break;
                             }
                         } catch (e) {
@@ -140,12 +140,12 @@ export async function automateEpicGamesOrder(page: Page) {
                 } catch (err) {
                     console.log("No age verification dialog detected");
                 }
-                await randomDelay(300, 700); // reduced delay
+                // await randomDelay(150, 300); // reduced delay
 
                 try {
                     console.log("Looking for purchase button...");
                     const button = await page.waitForSelector('button:has-text("Get")', {
-                        timeout: 20000, // reduced timeout
+                        timeout: 10000, // reduced timeout
                         state: 'visible'
                     });
 
@@ -170,11 +170,11 @@ export async function automateEpicGamesOrder(page: Page) {
 
                     console.log("Clicking purchase button...");
                     await button.click();
-                    await randomDelay(300, 700); // reduced delay after clicking purchase
+                    // await randomDelay(150, 300); // reduced delay after clicking purchase
                     // Wait for the iframe containing the "Place Order" button
                     try {
                         console.log('Waiting for iframe with "Place Order" button...');
-                        const iframeHandle = await page.waitForSelector('#webPurchaseContainer iframe', { timeout: 15000 });
+                        const iframeHandle = await page.waitForSelector('#webPurchaseContainer iframe', { timeout: 8000 });
                         console.log('Found iframe, getting frame context...');
                         const frame = await iframeHandle.contentFrame();
                         
@@ -184,13 +184,13 @@ export async function automateEpicGamesOrder(page: Page) {
                             try {
                                 // Wait for the payment container and button to be ready
                                 console.log('Waiting for payment elements to load...');
-                                await frame.waitForLoadState('domcontentloaded');
-                                await randomDelay(1000, 2000);
+                                await frame.waitForLoadState('networkidle');
+                                // await randomDelay(400, 600);
 
                                 // Try direct click on the button
                                 const placeOrderButton = await frame.waitForSelector('.payment-btn.payment-order-confirm__btn.payment-btn--primary', {
                                     state: 'visible',
-                                    timeout: 10000
+                                    timeout: 8000
                                 });
 
                                 if (placeOrderButton) {
@@ -217,7 +217,7 @@ export async function automateEpicGamesOrder(page: Page) {
                                         });
                                         
                                         console.log('Place Order button clicked successfully');
-                                        await randomDelay(1000, 2000);
+                                        // await randomDelay(400, 600);
                                         
                                         // Wait for any loading state to complete
                                         await frame.waitForLoadState('networkidle');

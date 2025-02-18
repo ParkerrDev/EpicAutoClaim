@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { automateEpicGamesOrder } from '../src/automation';
-import { setCookiesForPage } from '../src/auth';
+import { automateEpicGamesOrder } from '../src/automation.js';
+import { setCookiesForPage } from '../src/auth.js';
 
 test.use({
     headless: false // This will show the browser window

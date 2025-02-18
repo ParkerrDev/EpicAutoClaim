@@ -17,7 +17,7 @@ export async function setCookiesForPage(page: Page) {
                 ...(cookie.httpOnly && { httpOnly: true }),
                 ...(cookie.expirationDate && { expires: cookie.expirationDate }),
             };
-        }).filter(cookie => cookie.name && cookie.value && cookie.domain);
+        }).filter((cookie: { name: any; value: any; domain: any; }) => cookie.name && cookie.value && cookie.domain);
 
         console.log("Adding cookies to page:", cookies);
         await page.context().addCookies(cookies);

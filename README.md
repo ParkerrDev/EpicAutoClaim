@@ -43,6 +43,17 @@ This project is designed to automate the process of claiming free games from Epi
 - The project includes functions to navigate to the Epic Games free games page and the Fab website.
 - It automates the order placement process for items found on these platforms.
 
+## Running Tests
+
+Use the Playwright CLI or the npm script:
+```
+npm run test
+```
+or
+```
+npx playwright test
+```
+
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes.
