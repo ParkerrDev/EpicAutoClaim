@@ -1,2 +1,4 @@
 node_modules/
 cookies/
+playwright-report/
+test-results/
